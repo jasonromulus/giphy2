@@ -2,7 +2,7 @@
 
 * {
     font-family:  "Arial", Arial, sans-serif;
-    color: #333447;
+    color: #ffffff;
     line-height: 1.5;
   }
 
@@ -17,7 +17,13 @@
     box-sizing: border-box;
     width:300px;
   }
-  
+  h1 {
+    text-align: center;
+  }
+  body{
+      background-color: rgb(41, 0, 68);
+  }
+
   form {
     margin-bottom:10px;
   }
