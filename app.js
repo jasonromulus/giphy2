@@ -1,6 +1,6 @@
-var app = express();
 var express = require('express');
 var exphbs  = require('express-handlebars');
+var app = express();
 var http = require('http');
 var giphy = require('giphy-api')();
 var port = process.env.PORT || 3000;
