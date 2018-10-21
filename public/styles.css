@@ -2,7 +2,7 @@
 
 * {
     font-family:  "Arial", Arial, sans-serif;
-    color: #ffffff;
+    color: #1900fa;
     line-height: 1.5;
   }
 
@@ -21,7 +21,7 @@
     text-align: center;
   }
   body{
-      background-color: rgb(41, 0, 68);
+      background-color: rgb(202, 183, 214);
   }
 
   form {
