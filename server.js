@@ -6,11 +6,11 @@ var giphy = require('giphy-api')();
 var port = process.env.PORT || 3000;
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
-app.set('view engine', 'handlebars');
+app.set('view engine', '.hbs');
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-    let search_term = req.query.term || "crazy rich asians"
+    let search_term = req.query.term || "i feel a chance to start again"
     giphy.search(search_term, function (err, response) {
       res.render('home', {gifs: response.data})
     });
