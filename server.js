@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
     });
   });
 
-  //This tells my computer what port it need to listen on.
+//This tells my computer what port it need to listen on.
 app.listen(port, function () {
   console.log('Gif Search listening on port localhost:3000!');
 });
